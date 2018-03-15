@@ -132,12 +132,14 @@ int main()
 {
     int ch,ch1,s,lch,l2ch;
     char beam;
-    while(1)
+    //while(1)
     {
-        cout<<"Press- .1. for two wheeler and .2. for four wheeler"<<endl;
-        cin>>ch;
-        cout<<"Enter the speed of the vehicle\n";
-        cin>>s;
+        //cout<<"Press- .1. for two wheeler and .2. for four wheeler"<<endl;
+        //cin>>ch; 
+        ch=1;
+        //cout<<"Enter the speed of the vehicle\n";
+        //cin>>s;
+        s=40;
         ch1=0;
 
 
