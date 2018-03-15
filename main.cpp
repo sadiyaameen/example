@@ -136,7 +136,7 @@ int main()
     {
         //cout<<"Press- .1. for two wheeler and .2. for four wheeler"<<endl;
         //cin>>ch; 
-        ch=1;
+        ch=2;
         //cout<<"Enter the speed of the vehicle\n";
         //cin>>s;
         s=40;
@@ -175,8 +175,9 @@ int main()
             Vehicle four_wheeler(2,s);
             while(ch1!=4)
             {
-                cout<<"\n 1. Breaking 2. Acceleration 3. Light 4.Quit\nEnter the function for the four wheeler:\n";
-                cin>>ch1;
+                //cout<<"\n 1. Breaking 2. Acceleration 3. Light 4.Quit\nEnter the function for the four wheeler:\n";
+                //cin>>ch1;
+                ch1=1;
 
                 if(ch1==1)
                 {
