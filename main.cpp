@@ -173,7 +173,8 @@ int main()
         else if(ch==2)//4 Wheeler
         {
             Vehicle four_wheeler(2,s);
-            while(ch1!=4)
+            //while(ch1!=4)
+            if(ch1!=4)
             {
                 //cout<<"\n 1. Breaking 2. Acceleration 3. Light 4.Quit\nEnter the function for the four wheeler:\n";
                 //cin>>ch1;
